@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C738B314292E93BE001D540D /* EpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C738B313292E93BE001D540D /* EpisodesViewController.swift */; };
+		C738B316292E93C9001D540D /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C738B315292E93C9001D540D /* LocationsViewController.swift */; };
+		C78C64DE292BD20700553E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78C64DD292BD20700553E5D /* AppDelegate.swift */; };
+		C78C64E0292BD20700553E5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78C64DF292BD20700553E5D /* SceneDelegate.swift */; };
+		C78C64E5292BD20700553E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78C64E3292BD20700553E5D /* Main.storyboard */; };
+		C79275E6292E75B000BCF130 /* LSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79275E5292E75B000BCF130 /* LSViewController.swift */; };
+		C7A81DA4292DA2F80094E1CF /* Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A81DA3292DA2F80094E1CF /* Resize.swift */; };
+		C7BAEA92292D0BF300F276C7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BAEA91292D0BF300F276C7 /* MenuViewController.swift */; };
+		C7C5A446292C192C00192506 /* Danganronpa Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C5A445292C192C00192506 /* Danganronpa Assets.xcassets */; };
+		C7C5A449292C1B2100192506 /* TriggerHappyHavoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C5A448292C1B2100192506 /* TriggerHappyHavoc.swift */; };
+		C7C5A44B292C1D6200192506 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C5A44A292C1D6200192506 /* Menu.swift */; };
+		C7F25854292E4B0B005FDDD2 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F25853292E4B0B005FDDD2 /* CharactersViewController.swift */; };
+		C7F5327E292ED16B00095CE0 /* Ext + UIViewContr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F5327D292ED16B00095CE0 /* Ext + UIViewContr.swift */; };
+		C7F7D562292D27DA00B93893 /* MenuB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F7D561292D27DA00B93893 /* MenuB.swift */; };
+		C7F7D565292D2A4A00B93893 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F7D564292D2A4A00B93893 /* MenuViewModel.swift */; };
+		C7F7D568292D31F700B93893 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F7D567292D31F700B93893 /* MenuTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C738B313292E93BE001D540D /* EpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewController.swift; sourceTree = "<group>"; };
+		C738B315292E93C9001D540D /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		C78C64DA292BD20700553E5D /* DanganronpaOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanganronpaOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78C64DD292BD20700553E5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C78C64DF292BD20700553E5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C78C64E4292BD20700553E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C78C64EB292BD20A00553E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79275E5292E75B000BCF130 /* LSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSViewController.swift; sourceTree = "<group>"; };
+		C7A81DA3292DA2F80094E1CF /* Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resize.swift; sourceTree = "<group>"; };
+		C7BAEA91292D0BF300F276C7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C7C5A445292C192C00192506 /* Danganronpa Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Danganronpa Assets.xcassets"; sourceTree = "<group>"; };
+		C7C5A448292C1B2100192506 /* TriggerHappyHavoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerHappyHavoc.swift; sourceTree = "<group>"; };
+		C7C5A44A292C1D6200192506 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		C7F25853292E4B0B005FDDD2 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		C7F5327D292ED16B00095CE0 /* Ext + UIViewContr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext + UIViewContr.swift"; sourceTree = "<group>"; };
+		C7F7D561292D27DA00B93893 /* MenuB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuB.swift; sourceTree = "<group>"; };
+		C7F7D564292D2A4A00B93893 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		C7F7D567292D31F700B93893 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C78C64D7292BD20700553E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C78C64D1292BD20700553E5D = {
+			isa = PBXGroup;
+			children = (
+				C78C64DC292BD20700553E5D /* DanganronpaOnline */,
+				C78C64DB292BD20700553E5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C78C64DB292BD20700553E5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C78C64DA292BD20700553E5D /* DanganronpaOnline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C78C64DC292BD20700553E5D /* DanganronpaOnline */ = {
+			isa = PBXGroup;
+			children = (
+				C7F7D566292D31CC00B93893 /* Views */,
+				C7F7D563292D2A3900B93893 /* ViewModels */,
+				C7F7D55E292D279100B93893 /* Model */,
+				C7BAEA90292D0BD800F276C7 /* ViewControllers */,
+				C7C5A447292C1B0800192506 /* Resources */,
+				C78C64DD292BD20700553E5D /* AppDelegate.swift */,
+				C78C64DF292BD20700553E5D /* SceneDelegate.swift */,
+				C78C64E3292BD20700553E5D /* Main.storyboard */,
+				C78C64EB292BD20A00553E5D /* Info.plist */,
+				C7C5A445292C192C00192506 /* Danganronpa Assets.xcassets */,
+			);
+			path = DanganronpaOnline;
+			sourceTree = "<group>";
+		};
+		C7BAEA90292D0BD800F276C7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7BAEA91292D0BF300F276C7 /* MenuViewController.swift */,
+				C7F25853292E4B0B005FDDD2 /* CharactersViewController.swift */,
+				C79275E5292E75B000BCF130 /* LSViewController.swift */,
+				C738B313292E93BE001D540D /* EpisodesViewController.swift */,
+				C738B315292E93C9001D540D /* LocationsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C7C5A447292C1B0800192506 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7C5A448292C1B2100192506 /* TriggerHappyHavoc.swift */,
+				C7C5A44A292C1D6200192506 /* Menu.swift */,
+				C7A81DA3292DA2F80094E1CF /* Resize.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C7F7D55E292D279100B93893 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7F7D561292D27DA00B93893 /* MenuB.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7F7D563292D2A3900B93893 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C7F7D564292D2A4A00B93893 /* MenuViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C7F7D566292D31CC00B93893 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7F7D567292D31F700B93893 /* MenuTableViewCell.swift */,
+				C7F5327D292ED16B00095CE0 /* Ext + UIViewContr.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C78C64D9292BD20700553E5D /* DanganronpaOnline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78C64EE292BD20A00553E5D /* Build configuration list for PBXNativeTarget "DanganronpaOnline" */;
+			buildPhases = (
+				C78C64D6292BD20700553E5D /* Sources */,
+				C78C64D7292BD20700553E5D /* Frameworks */,
+				C78C64D8292BD20700553E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanganronpaOnline;
+			productName = DanganronpaOnline;
+			productReference = C78C64DA292BD20700553E5D /* DanganronpaOnline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C78C64D2292BD20700553E5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C78C64D9292BD20700553E5D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = C78C64D5292BD20700553E5D /* Build configuration list for PBXProject "DanganronpaOnline" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C78C64D1292BD20700553E5D;
+			productRefGroup = C78C64DB292BD20700553E5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C78C64D9292BD20700553E5D /* DanganronpaOnline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C78C64D8292BD20700553E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C5A446292C192C00192506 /* Danganronpa Assets.xcassets in Resources */,
+				C78C64E5292BD20700553E5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C78C64D6292BD20700553E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A81DA4292DA2F80094E1CF /* Resize.swift in Sources */,
+				C7BAEA92292D0BF300F276C7 /* MenuViewController.swift in Sources */,
+				C7F7D565292D2A4A00B93893 /* MenuViewModel.swift in Sources */,
+				C7F7D568292D31F700B93893 /* MenuTableViewCell.swift in Sources */,
+				C79275E6292E75B000BCF130 /* LSViewController.swift in Sources */,
+				C7F7D562292D27DA00B93893 /* MenuB.swift in Sources */,
+				C738B316292E93C9001D540D /* LocationsViewController.swift in Sources */,
+				C7C5A449292C1B2100192506 /* TriggerHappyHavoc.swift in Sources */,
+				C78C64DE292BD20700553E5D /* AppDelegate.swift in Sources */,
+				C78C64E0292BD20700553E5D /* SceneDelegate.swift in Sources */,
+				C7F25854292E4B0B005FDDD2 /* CharactersViewController.swift in Sources */,
+				C738B314292E93BE001D540D /* EpisodesViewController.swift in Sources */,
+				C7C5A44B292C1D6200192506 /* Menu.swift in Sources */,
+				C7F5327E292ED16B00095CE0 /* Ext + UIViewContr.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C78C64E3292BD20700553E5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C78C64E4292BD20700553E5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C78C64EC292BD20A00553E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C78C64ED292BD20A00553E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C78C64EF292BD20A00553E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DanganronpaOnline/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HopesPeak.DanganronpaOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C78C64F0292BD20A00553E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DanganronpaOnline/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HopesPeak.DanganronpaOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C78C64D5292BD20700553E5D /* Build configuration list for PBXProject "DanganronpaOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78C64EC292BD20A00553E5D /* Debug */,
+				C78C64ED292BD20A00553E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78C64EE292BD20A00553E5D /* Build configuration list for PBXNativeTarget "DanganronpaOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78C64EF292BD20A00553E5D /* Debug */,
+				C78C64F0292BD20A00553E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C78C64D2292BD20700553E5D /* Project object */;
+}
